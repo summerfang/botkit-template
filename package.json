@@ -11,7 +11,7 @@
   "author": "Summer Fang <jianbfan@cisco.com>",
   "license": "MIT",
   "dependencies": {
-    "botbuilder-adapter-webex": "^1.0.10",
+    "botbuilder-adapter-webex": "^1.0.5",
     "botbuilder-storage-mongodb": "^1.0.8",
     "botbuilder-storage-redis": "^1.1.2",
     "botkit": "^4.15.0",
@@ -19,7 +19,6 @@
     "redis": "^4.3.1",
     "uuid": "^9.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,4 +32,3 @@
   },
   "homepage": "https://github.com/CiscoDevNet/botkit-template#readme"
 }
-
