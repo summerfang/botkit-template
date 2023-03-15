@@ -30,6 +30,6 @@ module.exports = function (controller) {
             alert(error.message);
           }
 
-        await bot.reply( message, { markdown: daat.data } );
+        await bot.reply( message, { markdown: data.result } );
     });
 }
