@@ -75,7 +75,7 @@ Assuming you plan to us [ngrok](https://ngrok.com) to give your bot a publically
 
 ## Quick start on Glitch.me
 
-* Click [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/CiscoDevNet/botkit-template)
+* Click [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/summerfang/asksummer)
 
 * Delete the `.env` file that Glitch created automatically
 
