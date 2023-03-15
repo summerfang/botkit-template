@@ -1,7 +1,7 @@
 {
   "name": "asksummer",
-  "description": "AskSummer Bot for Webex Teams",
-  "version": "0.9.1",
+  "description": "AskSummer Bot can answer your questions about Summer Fang and his projects.",
+  "version": "0.9.9",
   "main": "bot.js",
   "keywords": [
     "webex-teams",
@@ -17,11 +17,17 @@
     "botkit": "^4.15.0",
     "dotenv": "^16.0.3",
     "redis": "^4.3.1",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.0",
+    "next": "^13.1.1",
+    "openai": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "scripts": {
     "start": "node bot.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build"
   },
   "repository": {
     "type": "git",
@@ -30,5 +36,9 @@
   "bugs": {
     "url": "https://github.com/summerfang/asksummer/issues"
   },
-  "homepage": "https://github.com/summerfang/asksummer"
+  "homepage": "https://github.com/summerfang/asksummer",
+
+  "engines": {
+    "node": ">=14.6.0"
+  }
 }
