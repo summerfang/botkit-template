@@ -9,7 +9,7 @@ module.exports = function (controller) {
         let markDown = `Sorry, I did not understand.  \nTry: ${ controller.checkAddMention( message.roomType, 'help' ) }`;
         
         try {
-            const response = await fetch("/api/generate", {
+            const response = await fetch("/generate", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
