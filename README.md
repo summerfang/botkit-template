@@ -34,9 +34,9 @@ Assuming you plan to us [ngrok](https://ngrok.com) to give your bot a publically
 1. Clone this repo:
 
     ```sh
-    git clone https://github.com/CiscoDevNet/botkit-template.git
+    git clone https://github.com/summerfang/asksummer
 
-    cd botkit-template
+    cd asksummer
     ```
 
 1. Install the Node.js dependencies:
